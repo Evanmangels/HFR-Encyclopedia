@@ -1,0 +1,53 @@
+{
+  "version": "v0.10.6",
+  "scope": "UTA enclave cleanup + globe interaction performance",
+  "geojson_validation": {
+    "hfr-na-polities.geojson": {
+      "features": 10,
+      "invalid_features": []
+    },
+    "hfr-na-polities-fast.geojson": {
+      "features": 10,
+      "invalid_features": []
+    },
+    "hfr-na-borders.geojson": {
+      "features": 19,
+      "invalid_features": []
+    },
+    "hfr-na-hydro-borders.geojson": {
+      "features": 21,
+      "invalid_features": []
+    },
+    "world-land.geojson": {
+      "features": 294,
+      "invalid_features": []
+    },
+    "north-america-lakes.geojson": {
+      "features": 724,
+      "invalid_features": []
+    }
+  },
+  "uta_components_after": 1,
+  "great_basin_holes_after": 1,
+  "new_vegas_remains_outside_great_basin_fill": true,
+  "significant_polity_overlaps": [],
+  "interaction_mode_present": true,
+  "interaction_heavy_layers_suppressed": true,
+  "css_brace_balance": 0,
+  "css_paren_balance": 0,
+  "nav_targets_checked": 51,
+  "missing_nav_targets": [],
+  "current_release_refs": {
+    "mkdocs": true,
+    "index": true,
+    "readme": true,
+    "release_notes": true
+  },
+  "mkdocs_build": "not run: mkdocs package not installed in environment",
+  "interaction_local_coordinate_work_estimate": {
+    "rest_full_detail_excluding_remote_rivers_and_graticule": 94701,
+    "during_drag_zoom": 37559,
+    "reduction_percent": 60.3
+  },
+  "node_syntax_check": "passed"
+}

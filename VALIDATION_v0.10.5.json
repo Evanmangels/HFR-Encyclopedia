@@ -1,0 +1,19 @@
+{
+  "version": "v0.10.5",
+  "scope": "rendering-only cartographic polish",
+  "geojson_changed": [],
+  "geojson_unchanged": true,
+  "all_core_border_strokes_black": true,
+  "hydro_border_width_px": 1.35,
+  "river_major_width_px": 0.95,
+  "river_border_visually_covers_major_river": true,
+  "selected_outline_above_border_layers": true,
+  "selected_outline_black": true,
+  "selected_neighbor_dimming": true,
+  "css_brace_balance": 0,
+  "css_paren_balance": 0,
+  "nav_targets_checked": 51,
+  "missing_nav_targets": [],
+  "node_syntax_check": "passed separately",
+  "mkdocs_build": "not run: mkdocs package not installed in environment"
+}

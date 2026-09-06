@@ -1,0 +1,67 @@
+{
+  "version": "v0.10.3",
+  "valid_polities": true,
+  "usa_iroquois": {
+    "border_nodes": 1226,
+    "overlap_area": 0.0,
+    "sample_boundary_alignment": {
+      "usa": {
+        "max_sample_distance": 7.150478835842315e-15,
+        "mean_sample_distance": 2.471420947685212e-15
+      },
+      "iroquois": {
+        "max_sample_distance": 7.15033800445768e-15,
+        "mean_sample_distance": 2.4714350747076567e-15
+      }
+    },
+    "usa_area_change": 0.2675740622846092,
+    "iroquois_area_change": -0.2675740622853624
+  },
+  "river_renderer": {
+    "remote_source": "Natural Earth 1:50m rivers_lake_centerlines",
+    "north_america_only": true,
+    "named_rivers_only": true,
+    "name_level_rank_normalization": true,
+    "zoom_thresholds": {
+      "major": 0,
+      "medium": 330,
+      "minor": 850
+    },
+    "dense_local_minor_fallback_suppressed": true
+  },
+  "navigation": {
+    "targets": 51,
+    "missing": []
+  },
+  "links": {
+    "checked": 322,
+    "missing": [
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/scandinavia-hero.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/example-flag.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/example-map.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/places/example-capital.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/history/livonian-partition-provisional.webp"
+      ]
+    ]
+  },
+  "javascript": {
+    "node_syntax_checked": true,
+    "river_source_50m": true,
+    "continuous_name_classifier": true
+  },
+  "legacy_development_version": "v0.13"
+}

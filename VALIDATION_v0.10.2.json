@@ -1,0 +1,33 @@
+{
+  "version": "v0.10.2",
+  "valid_polities": true,
+  "cl_nodes": {
+    "USA–Caesar's Legions": 662,
+    "Caesar's Legions–UTA": 453,
+    "Caesar's Legions–Great Basin": 181,
+    "Caesar's Legions–MDE": 80
+  },
+  "shared_pairs": {
+    "USA–Vinland": {
+      "overlap_area": 0.0,
+      "border_length": 19.677800987683458,
+      "a_boundary_distance_max_hint": 0.0,
+      "b_boundary_distance_max_hint": 0.0
+    },
+    "UTA–アラスカ": {
+      "overlap_area": 0.0,
+      "border_length": 18.519127179452372,
+      "a_boundary_distance_max_hint": 0.0,
+      "b_boundary_distance_max_hint": 0.0
+    }
+  },
+  "overlaps": {
+    "cl-usa": 0.0,
+    "cl-uta": 0.0,
+    "cl-great-basin": 0.0,
+    "cl-mde": 0.0,
+    "usa-vinland": 0.0,
+    "uta-alaska": 0.0
+  },
+  "legacy_development_version": "v0.12"
+}

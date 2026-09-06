@@ -2,7 +2,7 @@
 
 **Current encyclopedia version: v0.10.8**
 
-A Markdown-based canon encyclopedia built with MkDocs and Material for MkDocs.
+A private, Markdown-based canon encyclopedia built with MkDocs and Material for MkDocs.
 
 ## Windows: first launch
 

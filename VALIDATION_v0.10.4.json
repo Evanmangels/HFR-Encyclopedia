@@ -1,0 +1,238 @@
+{
+  "version": "v0.10.4",
+  "local_repartition_results": {
+    "USA–Iroquois": true,
+    "USA–UTA": true,
+    "USA–Caesar's Legions": true,
+    "Caesar's Legions–UTA": true,
+    "Caesar's Legions–Great Basin": true,
+    "Caesar's Legions–MDE": true,
+    "MDE–Great Basin": true,
+    "NCR–Great Basin": true,
+    "UTA–Great Basin": true,
+    "NCR–UTA": true,
+    "NCR–MDE": true,
+    "Iroquois–UTA": true,
+    "Iroquois–Vinland": true,
+    "UTA–Vinland": true,
+    "UTA–アラスカ": true,
+    "Vinland–アラスカ": true,
+    "USA–Vinland": true
+  },
+  "hydro_features": 21,
+  "checks": {
+    "polities_valid": true,
+    "borders_valid": true,
+    "hydro_valid": true,
+    "global_overlaps_gt_1e-6": [],
+    "nav_total": 51,
+    "nav_missing": [],
+    "javascript_syntax_ok": true,
+    "javascript_error": "",
+    "hydro_js_wired": true,
+    "css_braces_balanced": true,
+    "internal_links_checked": 322,
+    "internal_links_missing": [
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/scandinavia-hero.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/example-flag.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/polities/example-map.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/places/example-capital.webp"
+      ],
+      [
+        "docs/reference/image-guide.md",
+        "../assets/images/history/livonian-partition-provisional.webp"
+      ]
+    ]
+  },
+  "pair_checks": {
+    "USA–Iroquois": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 7.345066586439759e-15,
+      "max_deg_to_second_fill_boundary": 7.345256185473998e-15,
+      "overlap_area": 6.999880276109538e-18
+    },
+    "USA–UTA": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 2.3185531845798012e-08,
+      "max_deg_to_second_fill_boundary": 6.91350805409251e-08,
+      "overlap_area": 5.902125576467965e-17
+    },
+    "USA–Caesar's Legions": {
+      "samples_near_pair_mask": 173,
+      "max_deg_to_first_fill_boundary": 0.012572892848785117,
+      "max_deg_to_second_fill_boundary": 0.041357930390649146,
+      "overlap_area": 7.200273007685782e-23
+    },
+    "Caesar's Legions–UTA": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 6.4842524388778856e-15,
+      "max_deg_to_second_fill_boundary": 6.484568882801505e-15,
+      "overlap_area": 0.0
+    },
+    "Caesar's Legions–Great Basin": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 7.471639913141075e-15,
+      "max_deg_to_second_fill_boundary": 7.486613139419915e-15,
+      "overlap_area": 0.0
+    },
+    "Caesar's Legions–MDE": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 1.2536130030332408e-08,
+      "max_deg_to_second_fill_boundary": 1.2536131617437013e-08,
+      "overlap_area": 0.0
+    },
+    "MDE–Great Basin": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 6.664086170436597e-15,
+      "max_deg_to_second_fill_boundary": 6.663703330994394e-15,
+      "overlap_area": 1.91540619153799e-18
+    },
+    "NCR–Great Basin": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 0.009147454882693879,
+      "max_deg_to_second_fill_boundary": 7.835742777006171e-15,
+      "overlap_area": 0.0
+    },
+    "UTA–Great Basin": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 7.429756099767278e-15,
+      "max_deg_to_second_fill_boundary": 7.425665438718304e-15,
+      "overlap_area": 0.0
+    },
+    "NCR–UTA": {
+      "samples_near_pair_mask": 172,
+      "max_deg_to_first_fill_boundary": 0.04178074160379457,
+      "max_deg_to_second_fill_boundary": 0.04188921187068471,
+      "overlap_area": 0.0
+    },
+    "NCR–MDE": {
+      "samples_near_pair_mask": 165,
+      "max_deg_to_first_fill_boundary": 0.01966710973998337,
+      "max_deg_to_second_fill_boundary": 0.06395264319160207,
+      "overlap_area": 0.0
+    },
+    "Iroquois–UTA": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 9.750925102595152e-15,
+      "max_deg_to_second_fill_boundary": 0.0014075238659581094,
+      "overlap_area": 1.3362702937978524e-22
+    },
+    "Iroquois–Vinland": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 5.3600289928903286e-15,
+      "max_deg_to_second_fill_boundary": 0.03746325585818377,
+      "overlap_area": 0.0
+    },
+    "UTA–Vinland": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 6.459376126326265e-15,
+      "max_deg_to_second_fill_boundary": 6.459376126326265e-15,
+      "overlap_area": 0.0
+    },
+    "UTA–アラスカ": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 0.043923231243356134,
+      "max_deg_to_second_fill_boundary": 0.026453595191813208,
+      "overlap_area": 0.0
+    },
+    "Vinland–アラスカ": {
+      "samples_near_pair_mask": 201,
+      "max_deg_to_first_fill_boundary": 0.02429719857167474,
+      "max_deg_to_second_fill_boundary": 0.11501267552007445,
+      "overlap_area": 3.960387248242791e-17
+    },
+    "USA–Vinland": {
+      "samples_near_pair_mask": 21,
+      "max_deg_to_first_fill_boundary": 0.019399518505036087,
+      "max_deg_to_second_fill_boundary": 0.23107628483096596,
+      "overlap_area": 2.051852611428817e-17
+    }
+  },
+  "ownership_spots": {
+    "Florida-USA": {
+      "owners": [
+        "usa"
+      ],
+      "expected": "usa"
+    },
+    "Long-Island-USA": {
+      "owners": [
+        "usa"
+      ],
+      "expected": "usa"
+    },
+    "Cape-Breton-USA": {
+      "owners": [
+        "usa"
+      ],
+      "expected": "usa"
+    },
+    "New-Orleans-CL": {
+      "owners": [
+        "cl"
+      ],
+      "expected": "cl"
+    },
+    "Olympic-UTA": {
+      "owners": [
+        "uta"
+      ],
+      "expected": "uta"
+    },
+    "Vancouver-Island-Alaska": {
+      "owners": [
+        "alaska"
+      ],
+      "expected": "alaska"
+    },
+    "Greenland-Vinland": {
+      "owners": [
+        "vinland"
+      ],
+      "expected": "vinland"
+    },
+    "Newfoundland-Vinland": {
+      "owners": [
+        "vinland"
+      ],
+      "expected": "vinland"
+    },
+    "Anticosti-Vinland": {
+      "owners": [
+        "vinland"
+      ],
+      "expected": "vinland"
+    },
+    "PEI-USA": {
+      "owners": [
+        "usa"
+      ],
+      "expected": "usa"
+    },
+    "Cuba-blank": {
+      "owners": [],
+      "expected": null
+    },
+    "Iceland-blank": {
+      "owners": [],
+      "expected": null
+    },
+    "New-Vegas": {
+      "owners": [
+        "new-vegas"
+      ],
+      "expected": "new-vegas"
+    }
+  }
+}

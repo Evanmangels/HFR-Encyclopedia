@@ -1,0 +1,38 @@
+{
+  "mkdocs_config_unchanged_except_version": true,
+  "map_globe_files_checked": 17,
+  "map_globe_files_changed": [],
+  "data_files_parse_ok": 14,
+  "internal_links_checked": 345,
+  "missing_internal_links": [
+    [
+      "reference/image-guide.md",
+      "../assets/images/polities/scandinavia-hero.webp"
+    ],
+    [
+      "reference/image-guide.md",
+      "../assets/images/polities/example-flag.webp"
+    ],
+    [
+      "reference/image-guide.md",
+      "../assets/images/polities/example-map.webp"
+    ],
+    [
+      "reference/image-guide.md",
+      "../assets/images/places/example-capital.webp"
+    ],
+    [
+      "reference/image-guide.md",
+      "../assets/images/history/livonian-partition-provisional.webp"
+    ]
+  ],
+  "known_intentional_image_guide_placeholders": 5,
+  "cl_article_checks": {
+    "no_southern_alabama_claim": true,
+    "has_military_commonwealth": true,
+    "has_christian_toleration": true,
+    "has_mr_c_founder": true,
+    "defers_to_globe": true
+  },
+  "version": "v0.10.8"
+}

@@ -1,0 +1,122 @@
+{
+  "labels": [
+    {
+      "id": "usa",
+      "text": "UNITED STATES",
+      "lon": -78,
+      "lat": 35
+    },
+    {
+      "id": "cl",
+      "text": "CAESAR'S LEGIONS",
+      "lon": -98,
+      "lat": 33
+    },
+    {
+      "id": "uta",
+      "text": "UTA",
+      "lon": -106,
+      "lat": 47
+    },
+    {
+      "id": "iroquois",
+      "text": "IROQUOIS",
+      "lon": -78,
+      "lat": 46
+    },
+    {
+      "id": "vinland",
+      "text": "VINLAND",
+      "lon": -76,
+      "lat": 57
+    },
+    {
+      "id": "alaska",
+      "text": "アラスカ",
+      "lon": -139,
+      "lat": 59
+    },
+    {
+      "id": "ncr",
+      "text": "NCR",
+      "lon": -121,
+      "lat": 38
+    },
+    {
+      "id": "mde",
+      "text": "MDE",
+      "lon": -101,
+      "lat": 23
+    },
+    {
+      "id": "new-vegas",
+      "text": "NEW VEGAS",
+      "lon": -115.15,
+      "lat": 36.1
+    },
+    {
+      "id": "great-basin",
+      "text": "GREAT BASIN\nMOSAIC",
+      "lon": -116,
+      "lat": 41,
+      "status": "fragmented"
+    },
+    {
+      "id": "vinland",
+      "text": "VINLAND",
+      "lon": -42,
+      "lat": 72
+    }
+  ],
+  "islands": [
+    {
+      "name": "Prince Edward Island",
+      "lon": -63.25,
+      "lat": 46.4,
+      "owner": "United States",
+      "color": "#4E7191"
+    },
+    {
+      "name": "Magdalen Islands",
+      "lon": -61.75,
+      "lat": 47.4,
+      "owner": "United States",
+      "color": "#4E7191"
+    },
+    {
+      "name": "Anticosti Island",
+      "lon": -63.1,
+      "lat": 49.5,
+      "owner": "Vinland",
+      "color": "#718A9B"
+    },
+    {
+      "name": "Isla Guadalupe",
+      "lon": -118.3,
+      "lat": 29.0,
+      "owner": "Mexica Double Eagle Empire",
+      "color": "#3B784A"
+    }
+  ],
+  "cartography_version": "v0.10.6 final globe cleanup",
+  "cl_topology": {
+    "principle": "Caesar’s Legions fill and border are generated from the same perimeter geometry.",
+    "river_display_plan": "HydroRIVERS selected for later hydrology rebuild; v0.11 intentionally does not replace the whole continent river layer before CL topology approval."
+  },
+  "hydrology": {
+    "primary_display": "Natural Earth 1:50m base rivers/lake centerlines, filtered to North America and classified consistently by full named river rather than individual segment.",
+    "fallback": "bundled major + medium river layers only; dense minor fallback suppressed.",
+    "visibility": "major rivers always; medium rivers at regional zoom; minor rivers only at close zoom.",
+    "continuity_policy": "all segments sharing a normalized river name receive the same visual class so a river does not change visibility mid-course."
+  },
+  "shared_topology_pairs": [
+    "CL perimeter",
+    "USA–Vinland",
+    "UTA–アラスカ",
+    "USA–Iroquois"
+  ],
+  "versioning_note": "Globe/cartography refinements to the v0.10 update use patch versions. The preceding development builds labeled v0.11/v0.12/v0.13 correspond conceptually to v0.10.1/v0.10.2/v0.10.3.",
+  "topology_policy": "Do not redraw approved routes. Where canon says a frontier follows a river/lake/coast/ridge/road, that approved route governs the political line and neighboring fill edge.",
+  "hydrographic_border_layer": "hfr-na-hydro-borders.geojson",
+  "rendering_policy": "All political borders render black. River-border overlays render above rivers and fully cover the river stroke where coincident. Country selection uses brighter selected fill, muted neighboring fills, and a thicker black perimeter overlay; geometry is unchanged from v0.10.4."
+}

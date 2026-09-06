@@ -1,0 +1,16 @@
+{
+  "css_unchanged": true,
+  "interactive_globe_page_unchanged": true,
+  "javascript_only_version_string_changed": true,
+  "data_json_parse_failures": [],
+  "data_file_count": 14,
+  "usa_article_lines": 452,
+  "usa_article_bytes": 37406,
+  "nav_targets": 51,
+  "unexpected_broken_markdown_links": 0,
+  "intentional_image_guide_placeholders": 5,
+  "node_js_syntax": "passed",
+  "mkdocs_strict_build": "skipped: mkdocs command unavailable in runtime",
+  "version": "v0.10.7",
+  "date": "2026-08-27"
+}

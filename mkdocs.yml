@@ -1,0 +1,147 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: How Few Remain Encyclopedia v0.10.8
+site_description: Canon encyclopedia and editorial workspace for the How Few Remain alternate-history setting
+site_author: HFR Project
+
+theme:
+  name: material
+  language: en
+  font: false
+  logo: assets/images/hfr-mark.svg
+  favicon: assets/images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - World:
+      - World Overview: world/index.md
+      - World in 1604 ATL: world/world-in-1604.md
+      - Geopolitical Tensions: world/geopolitical-tensions.md
+      - Polities:
+          - Browse Polities: polities/index.md
+          - New World:
+              - United States: polities/united-states.md
+              - Caesar's Legions: polities/caesars-legions.md
+              - Mexica Double Eagle Empire: polities/mexica-double-eagle-empire.md
+              - United Tribes of America: polities/united-tribes-of-america.md
+              - Iroquois Confederacy: polities/iroquois-confederacy.md
+              - New California Republic: polities/new-california-republic.md
+              - New Vegas: polities/new-vegas.md
+              - Vinland: polities/vinland.md
+          - Old World:
+              - Western & Central Europe:
+                  - Holy Roman Empire: polities/holy-roman-empire.md
+                  - Francia: polities/francia.md
+              - Northern & Eastern Europe:
+                  - Scandinavia: polities/scandinavia.md
+                  - Novgorod: polities/novgorod.md
+                  - Poland–Lithuania: polities/poland-lithuania.md
+                  - Golden Horde: polities/golden-horde.md
+              - Eastern Mediterranean & Iranian World:
+                  - Byzantium: polities/byzantium.md
+                  - Persia: polities/persia.md
+                  - Hijez Sultanate: polities/hijez-sultanate.md
+      - Places: places/index.md
+      - Peoples & Cultures: cultures/index.md
+      - Religions: religions/index.md
+  - Interactive Globe: world/interactive-globe.md
+  - History:
+      - Master Timeline: history/master-timeline.md
+      - Wars & Events:
+          - Event Index: history/events/index.md
+          - Absence of Antonine Plague: history/events/no-antonine-plague.md
+          - Roman Victory at Teutoburg: history/events/roman-victory-at-teutoburg.md
+          - Roman Discovery of the Americas: history/events/roman-discovery-of-the-americas.md
+          - Christianization of Rome: history/events/christianization-of-rome.md
+          - Fall of Western Rome: history/events/fall-of-western-rome.md
+          - Mongol & Ilkhanate Crisis: history/events/mongol-ilkhanate-crisis.md
+          - Novgorod–Scandinavian Wars: history/events/novgorod-scandinavian-wars.md
+          - First Great Indian War: history/events/first-great-indian-war.md
+          - Legionary Civil War: history/events/legionary-civil-war.md
+          - Franco-Roman War: history/events/franco-roman-war.md
+  - Languages:
+      - Language Index: languages/index.md
+      - Atlantic Standard: languages/atlantic-standard.md
+  - Reference:
+      - Canon & Sources: reference/canon-guide.md
+      - Canon Status Dashboard: reference/canon-status-dashboard.md
+      - Editorial Workflow: reference/editorial-workflow.md
+      - How to Edit: reference/how-to-edit.md
+      - Image & Visual Guide: reference/image-guide.md
+      - Article Templates:
+          - Templates Overview: templates/index.md
+          - Polity: templates/polity-template.md
+          - City: templates/city-template.md
+          - Person: templates/person-template.md
+          - Event: templates/event-template.md
+          - Language: templates/language-template.md
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/d3.v3.min.js
+  - assets/javascripts/extra.js
+
+copyright: How Few Remain — private project encyclopedia
